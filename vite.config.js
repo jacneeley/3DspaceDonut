@@ -1,8 +1,11 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+// vite.config.js
+import { defineConfig } from 'vite';
+import { svelte } from '@sveltejs/vite-plugin-svelte';
 
-//https://vitejs.dev/config/
 export default defineConfig({
-    base: '/3DspaceDonut/',
-    plugins: [vue()]
-})
+  plugins: [
+    svelte({
+      /* plugin options */
+    })
+  ]
+});
