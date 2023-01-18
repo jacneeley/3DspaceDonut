@@ -1,2 +1,6 @@
-body{background-image: url('space.jpg');}
+body{
+  background-image: url('space.jpg');
+  margin: 0;
+}
+
 canvas{position:fixed;top:0;left:0;}
